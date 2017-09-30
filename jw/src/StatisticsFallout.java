@@ -8,7 +8,8 @@ public class StatisticsFallout {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число дней:");
         int dayValue = scanner.nextInt();
-        int falloutValue = 0, sumFallout = 0, aFallout = 0, maxFallout = 0;
+        int falloutValue = 0, sumFallout = 0, maxFallout = 0;
+        double aFallout = 0;
         System.out.println("Введите осадки за каждый день:");
         for (int i = 0; i <dayValue ; i++) {
             falloutValue = scanner.nextInt();

@@ -19,14 +19,14 @@ public class Calculate {
                 x1 = (-b) / (2 * a);
                 System.out.println("Дискриминант = 0");
                 System.out.println("X1 = " + x1);
-            }else {
+            } else {
                 x1 = (-b + Math.sqrt(discriminant)) / (2 * a);
                 x2 = (-b - Math.sqrt(discriminant)) / (2 * a);
                 System.out.println("Дискриминант > 0");
                 System.out.println("X1 = " + x1);
                 System.out.println("X2 = " + x2);
             }
-        }else {
+        } else {
             System.out.println("Дискриминант < 0");
         }
     }

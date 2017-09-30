@@ -11,11 +11,11 @@ public class Fibonacci {
         int fib = 0, a = 0, b = 1;
         System.out.println("Числа Фибона́ччи: ");
         for (int i = 0; i <= numValue ; i++) {
-            if(i == 0){
+            if(i == 0) {
                 System.out.print("  " + a);
-            }else if(i == 1){
+            } else if(i == 1) {
                 System.out.print("  " + b);
-            }else{
+            } else {
                 fib = a + b;
                 System.out.print("  " + fib);
                 a = b;
