@@ -25,16 +25,13 @@ public class ListMarkLength {
     }
 
     private static void markLength4(List<String> list) {
-        int i = 0;
         List<String> listCopy = new ArrayList<>();
         listCopy.addAll(list);
         System.out.println();
         for (String listStr: listCopy) {
             if (listStr.length() == 4) {
-                list.add(i, "****");
-                i++;
+                list.add(list.indexOf(listStr), "****");
             }
-            i++;
         }
         printList(list);
     }
