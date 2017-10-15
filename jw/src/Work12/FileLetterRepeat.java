@@ -36,7 +36,7 @@ public class FileLetterRepeat {
                 e.printStackTrace();
             }
         }
-        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("Work12" + File.separator + "LetterRepeat.txt"))) {
+        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(fileOut))) {
             for (Character charValue: letterRepeat.keySet()) {
                 bufferedWriter.write(charValue + " - " + letterRepeat.get(charValue) + "\n");
             }
